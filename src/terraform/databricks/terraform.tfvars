@@ -1,0 +1,14 @@
+subscription_id            = "<subscription-id from azure portal>"
+databricks_account_id      = "<databricks account id>"
+primary_location           = "uksouth"
+alternate_location         = "francecentral"
+container_name             = "datapoc"
+name                       = "dbwpoc"
+primary_suffix             = "primary"
+alternate_suffix           = "alternate"
+catalog_name               = "test_catalog"
+schema_name                = "test_schema"
+table_name                 = "price_table"
+delta_sharing_token_expiry = 7776000 # The value is in seconds. Current value is 90 days
+cluster_vm_sku_type        = "Standard_DS3_v2"
+auto_termination_minutes   = 10
